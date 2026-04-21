@@ -1,0 +1,27 @@
+{
+	"pluginmetadataversion": 2,
+	"name": "JNIAtlas",
+	"type": ["helper"],
+	"api": ["python3"],
+	"description": "Map JNI entry points from an APK and explore JNI→native call graphs.",
+	"longdescription": "JNIAtlas: (1) Import APK — apply JNI prototypes to native methods like classic JNIAnalyzer. (2) JNI Radar — list Java_… JNI exports in the open .so and the functions each one calls.",
+	"license": {
+		"name": "MIT",
+		"text": "Copyright (c) 2026\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated software files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+	},
+	"platforms": ["Linux", "Darwin", "Windows"],
+	"installinstructions": {
+		"Linux": "Install Androguard for APK import.",
+		"Darwin": "Install Androguard for APK import.",
+		"Windows": "Install Androguard for APK import."
+	},
+	"version": "1.0.0",
+	"author": "nyxFault",
+	"minimumbinaryninjaversion": 3000,
+	"dependencies": {
+		"pip": ["androguard"],
+		"apt": [],
+		"installers": [],
+		"other": []
+	}
+}
